@@ -1,0 +1,8 @@
+prefix=/home/chengyuen93/catkin_ws/src/command_recognition/build/devel
+
+Name: command_recognition
+Description: Description of command_recognition
+Version: 0.0.0
+Cflags: -I/home/chengyuen93/catkin_ws/src/command_recognition/include
+Libs: -L/home/chengyuen93/catkin_ws/src/command_recognition/build/devel/lib -lcommand_recognition
+Requires: roscpp rospy std_msgs roslib

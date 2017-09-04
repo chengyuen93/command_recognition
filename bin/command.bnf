@@ -1,0 +1,9 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar open;
+!slot <action>;
+!slot <object>;
+
+!start <openstart>;
+<openstart>:<action><object>;
+<action>:开!id(1001)|打开!id(1001)|关!id(1002)|关闭!id(1002);
+<object>:视频!id(2001)|笔记本!id(2002);

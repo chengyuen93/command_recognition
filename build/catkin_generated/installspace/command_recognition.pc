@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: command_recognition
+Description: Description of command_recognition
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lcommand_recognition
+Requires: roscpp rospy std_msgs roslib

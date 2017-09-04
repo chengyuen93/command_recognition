@@ -1,0 +1,22 @@
+============================================================
+Time  2017/08/31 12:21:16 054 
+============================================================
+[2017/08/31 12:21:16 054] isr_local  2168 os_type is:  Linux  
+[2017/08/31 12:21:16 054] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/31 12:21:16 054] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/31 12:21:16 054] isr_local  2265 last gc at  1504153276  
+[2017/08/31 12:21:16 055] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  build_grm_cb  
+[2017/08/31 12:21:16 055] isr_local  2265 last gc at  1504153276  
+[2017/08/31 12:21:16 055] isr_local  2219 ASR_LOCAL_MSG_BUILD_GRM  
+[2017/08/31 12:21:16 055] isr_local  1860 grm_init | params:  engine_type = local, 		asr_res_path = °³Ö, sample_rate = 16000, 		grm_build_path = res/asr/GrmBuilld,   
+[2017/08/31 12:21:16 055] isr_local  803  engine_type  :  local  
+[2017/08/31 12:21:16 055] isr_local  803  asr_res_path  :  °³Ö  
+[2017/08/31 12:21:16 055] isr_local  803  sample_rate  :  16000  
+[2017/08/31 12:21:16 055] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/31 12:21:16 055] isr_local  1000 file count =   1  
+[2017/08/31 12:21:16 055] isr_local  918  res path is incomplete!  
+[2017/08/31 12:21:16 055] isr_local  1006 parse respath substr error! :  23002  
+[2017/08/31 12:21:16 055] isr_local  1845 parse_respath error! :  nil  
+[2017/08/31 12:21:16 055] isr_local  1908 grm_init | create grm failed!  
+[2017/08/31 12:21:16 055] isr_local  1601 proc_retcode_grm | errorcode =  23002  
+[2017/08/31 12:21:16 055] isr_local  1593 onGrmLocalServiceCb  23002  nil  
